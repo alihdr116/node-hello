@@ -7,9 +7,6 @@
     "start": "node index.js",
     "test": "mocha"
   },
-  "dependencies": {
-    "mocha": "^8.4.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnpapa/node-hello.git"
@@ -20,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/johnpapa/node-hello/issues"
   },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+  "homepage": "https://github.com/johnpapa/node-hello#readme",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3"
+  }
 }
