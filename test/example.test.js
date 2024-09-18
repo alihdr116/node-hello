@@ -1,5 +1,4 @@
-import chai from 'chai';
-const { expect } = chai;
+import { expect } from 'chai';
 
 describe('Sample Test', function() {
   it('should return true', function() {
